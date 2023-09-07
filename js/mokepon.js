@@ -23,7 +23,7 @@ function iniciarJuego(){
     let botonTierra = document.getElementById('boton-tierra');
     botonTierra.addEventListener('click',ataqueTierra ) 
 
-    let botonReiniciar = document.getElementById('boton-reinicar');
+    let botonReiniciar = document.getElementById('boton-reiniciar');
     botonReiniciar.addEventListener('click', reinicarJuego)
 
 
@@ -37,7 +37,7 @@ function seleccionarMascotaJugador(){
 
     
     let sectionSeleccionarAtaque = document.getElementById('Seleccionar-ataque');
-    sectionSeleccionarAtaque.style.display = 'block';
+    sectionSeleccionarAtaque.style.display = 'flex';
 
     let inputHipodogue = document.getElementById('Hipodogue') //para que el codigo sea mas limpio almacenamos en una variable 
     let inputCapipepo = document.getElementById('capipepo') //para que
